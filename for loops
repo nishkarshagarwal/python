@@ -29,3 +29,48 @@ for key in my_dict:
 
 -----
 5) 
+   names = ['bob', 'the', 'builder', 'is', 'robbed']
+   ages = [20, 25, 30, 35, 40]
+   cities = ['los angles', 'california', 'egypt', 'london', 'france']
+
+   for name, age, city in zip(names, ages, cities)
+     print(f'{name} is {age} years old and lives in {city} city')
+
+-----
+6)
+   flowers = ['a', 'b', 'c']
+
+    for i in flowers:
+      print(i)
+     else:
+       print('done')
+
+-----
+7)
+  list_1 = [5, 10, 15, 20, 25]
+  list_2 = ['Tomatoes', 'Onions', 'Carrot']
+
+  for x in list_1:
+    for y in list_2:
+        print(x, y)
+
+-----
+8)
+  list = [1, 2, 3]
+
+  for i in list:
+    print(i)
+   else:
+     print('break')
+
+-----
+9)
+   vehicles = ['car', 'bike', 'van', 'auto', 'tempoo']
+    for v in vehicles:
+      if v =='bike'
+          continue
+      print(v)
+
+-----
+10)
+  
