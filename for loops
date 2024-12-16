@@ -1,0 +1,31 @@
+1) Python for loop to iterate seperatly go through the letters in a word.
+Ans. 
+
+name = 'Nishkarsh Agarwal'
+ for i in name:
+    print(i)
+-----
+2) Python for loop using the range function.
+Ans.
+
+for i in range(0, 10, 2):
+  print(i)
+
+-----
+3) Python for loop to iterate through a list.
+Ans.
+
+list = [1, 3, 6, 9, 12]
+for i in list:
+  print(i)
+
+-----
+4) Python for loop to iterate through a dictionary.
+Ans.
+
+my_dict = {'a':1, 'b':2, 'c':3}
+for key in my_dict:
+  print(f'{key}, {my_dict[key]}')
+
+-----
+5) 
